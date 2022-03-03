@@ -1,0 +1,16 @@
+<main>
+    <h1>Redirect</h1>
+    <p>Click on the following button to Test the function of Selenium Webdriver</p>
+    <button
+            onclick="redirect();">
+        Redirect to W3C
+    </button>
+</main>
+<script>
+  //show a confirmation and redirect to the delete profile script
+  function redirect() {
+    if (confirm("Do you really want to redirect?")) {
+        location.href = 'https://www.w3.org/';
+    }
+}
+</script>
